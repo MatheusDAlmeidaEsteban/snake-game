@@ -10,7 +10,7 @@ main{
     background-size: 100%;
 }
 main canvas{
-    border-radius: 5px;
+    border-radius: 2px;
     opacity: 70%;
 }
 main h1{
