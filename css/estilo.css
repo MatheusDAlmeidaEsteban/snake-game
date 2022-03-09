@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    width: 100%;
+    width: 100;
 }
 .quadro{
     display: flex;
@@ -52,24 +52,24 @@ main p{
 }
 .controle .cima{
     position: relative;
-    bottom: 240px;
+    bottom: 170px;
 }
 
 .controle .esquerda{
     position: relative;
-    bottom: 160px;
+    bottom: 85px;
     right: 150px;
 }
 
 .controle .direita{
     position: relative;
-    bottom: 205px;
+    bottom: 100px;
     left: 150px;
 }
 
 .controle .baixo{
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
     
 }
 .controle img{
