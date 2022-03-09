@@ -24,6 +24,51 @@ main p{
    margin: 10px 0;
     
 }
+
+.controle{
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 550px;
+    right: 450px;
+   
+}
+.controle h2{
+    color: azure;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.controle{
+    font-size: 1.2rem;
+}
+.controle .cima{
+    position: relative;
+    bottom: 240px;
+}
+
+.controle .esquerda{
+    position: relative;
+    bottom: 160px;
+    right: 150px;
+}
+
+.controle .direita{
+    position: relative;
+    bottom: 205px;
+    left: 150px;
+}
+
+.controle .baixo{
+    position: relative;
+    bottom: 50px;
+    
+}
+.controle img{
+    width: 270px;
+    height: 200px;
+}
 .rotape{
     width: 100%;
     height: 63px;

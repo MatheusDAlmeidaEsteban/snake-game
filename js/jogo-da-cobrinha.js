@@ -4,7 +4,7 @@ window.onload = function(){
     const ctx = canva.getContext("2d");
     const pontucao = document.getElementById("pontu");
 
-    document.addEventListener("keydown", keyPush);
+    document.addEventListener("keydown", controle);
     setInterval(game, 100);
 
     //declando variaveis
@@ -68,9 +68,9 @@ window.onload = function(){
         }
 
     }
-
-    function keyPush(event){
-
+    //controle
+    function controle(event){
+        
         switch (event.keyCode) {
             case 37: // esquerda
                 vx = -vel;
