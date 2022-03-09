@@ -58,13 +58,13 @@ main p{
 .controle .esquerda{
     position: relative;
     bottom: 85px;
-    right: 150px;
+    right: 140px;
 }
 
 .controle .direita{
     position: relative;
     bottom: 100px;
-    left: 150px;
+    left: 130px;
 }
 
 .controle .baixo{
